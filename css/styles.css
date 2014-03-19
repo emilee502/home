@@ -6,6 +6,10 @@ body {
 	margin-left: auto;
 	padding: auto 0;
 	vertical-align: middle;
+	transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
 }
 
 nav {
@@ -15,6 +19,10 @@ nav {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 35px;
+	transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
 }
 
 nav img {
@@ -23,6 +31,10 @@ nav img {
 	width: 600px;
 	margin: 0;
 	padding: 0;
+	transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
 }
 
 ul {
@@ -30,11 +42,19 @@ ul {
 	padding: 0;
 	margin: 30px auto;
 	width: 800px;
+	transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
 }
 
 li {
 	display: inline;
 	text-align: center;
+	transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
 }
 
 a img {
@@ -134,7 +154,7 @@ div {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   
 	body {
 		width: 600px;
@@ -182,7 +202,7 @@ div {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   
 	body {
 		width: 350px;
