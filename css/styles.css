@@ -52,7 +52,8 @@ a img:hover {
 
 p {
 	background: rgba(255, 255, 255, 0.83);
-	margin: 0 5px 0 0;
+	padding-right: 10px;
+	margin: 0 -10px;
 	position: absolute;
 	width: 200px;
 	text-align: right;
